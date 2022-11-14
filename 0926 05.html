@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>셀렉터</title>
+    <style>
+      .main {
+        background-color: aqua;
+      }
+      h3 {
+        color: green;
+      }
+      div#center > strong {
+        background-color: yellow;
+        color: darkblue;
+      }
+      #center {
+        text-align: center;
+      }
+      .indent:first-letter {
+        color: green;
+      }
+      .indent {
+        text-indent: 3em;
+      }
+      strong {
+        color: red;
+      }
+    </style>
+  </head>
+  <body class="main">
+    <h3>얼굴</h3>
+    <hr />
+    <div id="center"><strong>홍길동</strong></div>
+    <div class="indent">
+      <p>
+        <em>길</em>을 걷고 산들 무엇하리 <strong>꽃</strong>이 내가 아닌듯 내가
+        <strong>꽃</strong>이 될 수 없는 지금...
+      </p>
+    </div>
+  </body>
+</html>
